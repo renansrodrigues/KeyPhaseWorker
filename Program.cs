@@ -19,7 +19,7 @@ namespace VoiceWorker
             text = Console.ReadLine();
             var response = client.ExtractKeyPhrases(text);
          
-            Console.WriteLine("Key phrases:");
+            Console.WriteLine("Palavras chave:");
 
             foreach (string keyphrase in response.Value)
             {
