@@ -7,8 +7,8 @@ namespace VoiceWorker
    public class Program
     {
 
-        private static readonly AzureKeyCredential credentials = new AzureKeyCredential("7a87dfd3d7a04f24b6c15f94893acf58");
-        private static readonly Uri endpoint = new Uri("https://reconhecimentotextofiap.cognitiveservices.azure.com/");
+        private static readonly AzureKeyCredential credentials = new AzureKeyCredential("chave api");
+        private static readonly Uri endpoint = new Uri("url recurso");
         
         static void KeyPhraseExtraction(TextAnalyticsClient client)
         {
